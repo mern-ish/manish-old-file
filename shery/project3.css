@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(215, 216, 216);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+#menu-left{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(8, 181, 181); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu-left h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+#menu-left i{
+    margin-left: 24%;
+    font-size: 30px;
+    font-weight: 500;
+}
+#menu-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(8, 181, 181); */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+#menu-right h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 13%;
+
+}
+#intro{
+    /* background-color: antiquewhite; */
+    width: 90%;
+    height: 60%;
+    margin: 5%;
+}
+#intro h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+#intro h1{
+    font-size: 130px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130px;
+    margin: 20px 0px;
+}
+#content{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+#content span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span h4{
+    margin-left: 50px;
+   
+}
+#pages{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 30px 90px;
+    /* background-color: aquamarine; */
+    
+}
+.box{
+    width: 30%;
+    height: 100%;
+
+    /* background-color: antiquewhite; */
+}
+.image{
+    width: 100%;
+    height:80%;
+    /* background-color: blue; */
+    border-radius: 15px;
+}
+.image-one{
+    background-image: url(/image/ian-dooley-TT-ROxWj9nA-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat ;
+}
+.image-two{
+    background-image: url(/image/averie-woodard-4nulm-JUYFo-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat    ;
+}
+.image-three{
+    background-image: url(/image/dom-hill-nimElTcTNyY-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat    ;
+}
+

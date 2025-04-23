@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width:100%;
+}
+#nav{
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 50px;
+    position:fixed;
+    top : 0;
+    right : 0;
+}
+#nav h3{
+ 
+    padding:  10px 20px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#intro{
+    /* background-color: red; */
+    height: 50%;
+    /* width: 100%; */
+    padding: 50px;
+}
+#intro h1{
+    font-size: 145px;
+    line-height: 140px;
+    letter-spacing: -5px;
+    font-weight: 600;
+    
+}
+#place{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#place h3{
+    font-size: 30px;
+}
+.photo{
+    height: 80%;
+    /* width:100%; */
+    /* background-color: antiquewhite; */
+    background-image: url(/image/kyle-smith-tlowJ-oYAjU-unsplash.jpg);
+    background-size: cover;  
+}
+#about{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* background-color: antiquewhite; */
+    padding: 50px 70px;
+    /* border-right: 2px solid black; */
+}
+#about h1{
+    width: 55%;
+    /* background-color: red; */
+    /* padding: 60px; */
+    font-size: 100px;
+    line-height: 85px;
+    letter-spacing: -3px;
+    font-weight: 600;
+    /* border-right: 2px solid black; */
+   
+
+
+}
+#part2{
+    width: 30%;
+    height: 100%;
+    padding: 0 60px;
+    font-size: 25px;
+    font-weight: 500;
+    /* background-color: aqua; */
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+#icon i{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 5px;
+}
+#line{
+    border: 1px solid black;
+    margin: 40px;
+}
+#work{
+    /* width: 100%; */
+    height: 80%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    padding: 40px 60px;
+
+}
+#section1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-right: 50px;
+    border-right: 2px solid black;
+    
+    /* background-color: aqua; */
+}
+#section1 h3{
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+#section1 i{
+    font-size: 45px;
+    font-weight: 400;
+}
+#section2{
+    width:65%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    
+    justify-content: space-between;
+  
+}
+#sec2-part1{
+    width: 100%;
+    height: 50%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding: 30px 20px;
+    
+}
+#sec2-part2{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(120, 160, 95); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px 20px;
+}
+#sec2-part1-1{
+    padding: 60px;
+    width: 50%;
+}
+#sec2-part1-2{
+    padding: 60px;
+    border-left: 2px solid black;
+    width: 50%;
+}
+#sec2-part2-1{
+    padding: 60px;
+     width: 50%;
+}
+#sec2-part2-2{
+    padding: 60px;
+    border-left: 2px solid black;
+    width: 50%;
+}
+#section2 h1{
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    /* background-color: aqua; */
+}
+#section2 p{
+    font-size: 20px;
+}
+#line2{
+    border: 1px solid black;
+    margin: 40px;
+    
+}

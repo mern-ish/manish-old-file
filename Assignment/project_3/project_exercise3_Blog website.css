@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(222, 222, 222);
+}
+h1{
+    text-transform: capitalize;
+    padding: 15px 0px;
+    letter-spacing:1px;
+    color: rgb(44, 44, 91);
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  background-color: rgb(19, 161, 237);
+  padding: 15px;
+  margin: 15px 0px
+}
+.nav a{
+    color: white;
+    margin: 0px 20px;
+}
+.page1{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px 0px;
+    padding: 20px;
+}
+.page1 h2{
+    border-bottom: 2px dotted gray;
+    /* background-color: antiquewhite; */
+    padding: 10px 0px;
+    color: rgb(44, 44, 91);
+
+}
+.page1 p{
+    line-height: 2;
+}
+.page1 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+}
+.page1 h3{
+    letter-spacing: 1;
+
+}
+   
+.page1 ul{
+    padding: 30px 60px;
+    line-height: 2;
+}
+
+
+.page2{
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px 0px;
+    padding: 20px;
+
+}
+.page2 h2{
+    border-bottom: 2px dotted gray;
+    /* background-color: antiquewhite; */
+    padding: 10px 0px;
+    color: rgb(44, 44, 91);
+}
+.page2 p{
+    line-height: 2;
+}
+.page2 ol,ul{
+    padding: 0px 50px;
+    line-height: 2;
+}
+.page2 .para{
+    line-height: 4;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

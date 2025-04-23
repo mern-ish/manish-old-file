@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+#parent{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-auto-rows: minmax(50px,auto);
+    /* grid-auto-columns: 100px; */
+    gap:20px;
+    
+}
+.child{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:lightgreen;
+    border: 2px solid rgb(34, 172, 218);
+    
+    
+}
+
+/* @media(min-width:412px){
+    #parent{
+        width: 50%;
+        height: 50%;
+        background-color: black;
+    }
+} */
+

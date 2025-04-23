@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    
+    background-color: rgb(32, 32, 32);
+    color:white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+button{
+    padding:10px;
+    font-size:2rem;
+}
+
+
+#Game{
+    width: 500px;
+    height: 400px;
+    background-color: bisque;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+#Game h5{
+    font-size: 1.5rem;
+    
+}
+h1{
+    background-color: rgb(145, 194, 238);
+    font-size: 4rem;
+    padding:0px 40px;
+    border-radius: 10px;
+}
+#Game button{
+    font-size:1.5rem;
+    background-color: yellow;
+    border-radius:10px;
+
+}
+button:active{
+    scale: 0.95;
+}
+
+
+#Ipl-game{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#Ipl-game h3{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+#Ipl-game button{
+    border-radius: 10px;
+    font-family: monospace;
+    background-color:gold;
+}
+
+
