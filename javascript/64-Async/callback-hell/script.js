@@ -25,17 +25,17 @@
 
 //Promises
 
-// let pr = new Promise(function(res,rej){
-//     console.log("intragram jaao data laao");
-//     console.log("intagram data...");
-//     rej();
-// });
+let pr = new Promise(function(res,rej){
+    console.log("intragram jaao data laao");
+    console.log("intagram data...");
+    rej();
+});
 
-// pr.then(function(){
-//     console.log("resolved");
-// }).catch(function(){
-//     console.log("rejected");
-// })
+pr.then(function(){
+    console.log("resolved");
+}).catch(function(){
+    console.log("rejected");
+})
 
 //callback resolvedby promises
 
@@ -68,3 +68,16 @@ stepone()
 
 
 
+
+  console.log("Async")
+//setIntervals
+
+setInterval(() => {
+  let d = new Date();
+  let p = document.getElementById("demo");
+  p.innerHTML = d.getHours() +":"
+                +d.getMinutes() + ":"
+              +d.getSeconds()
+  
+  
+},1000);
