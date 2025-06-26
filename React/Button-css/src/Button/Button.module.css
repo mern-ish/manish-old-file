@@ -1,0 +1,11 @@
+.btn{
+    padding: 10px 20px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(240, 92%, 75%);
+    color:white;
+    cursor: pointer;
+}
